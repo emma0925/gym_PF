@@ -1,0 +1,29 @@
+nav {
+    background-color: #877272;
+    font-size: 18px;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  li a {
+    /* border: 1px solid rgb(255, 255, 255); */
+    border-radius: 5px;
+    color: rgb(254, 249, 249);
+    text-decoration: none;
+    padding: 10px 10px;
+  }
+  
+  li a:hover {
+    background-color: rgb(165, 132, 119);
+  }
+  

@@ -1,0 +1,78 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.Layout {
+  margin: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.my-component {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: #eee;
+}
+
+.full-size-img {
+  border: 50px solid rgb(255, 255, 255);
+  width: 95%;
+  height: 70%;
+}
+
+/* body {
+  background-image: url(fitness_centre.jpeg);
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  background-size: auto;
+  background-repeat: auto;
+  background-position: center center;
+} */

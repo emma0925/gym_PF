@@ -1,0 +1,95 @@
+.map-container {
+    width: 30vw;
+    height: 30vw;
+    display: flex,
+    }
+    
+    .studio-list {
+    width: 20vw;
+    height: 30vw;
+    float: right;
+    }
+    
+    .studio-item {
+    width: 20vw;
+    height: auto;
+    margin: 10px 0;
+    }
+    
+    .map-container {
+    width: 10vw;
+    height: 30vw;
+    float: left;
+    }
+    
+    .map {
+    width: 100%;
+    height: 100%;
+    }
+    
+
+    .button:hover {
+    background-color: #45a049;
+    }
+    
+    .selected {
+    background-color: #ffb6c1;
+    }
+    
+    .selected:hover {
+    background-color: #ffa0b1;
+    }
+    
+    .studio-item-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    }
+    
+    .studio-item-address {
+    font-size: 16px;
+    margin: 10px 0;
+    }
+    
+    .studio-item-image {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    }
+    
+    .studio-item-desc {
+    font-size: 14px;
+    margin: 10px 0;
+    }
+    
+    .studio-item-action {
+    text-align: center;
+    }
+
+    /* .button-link {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 15px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        text-decoration: none;
+      }
+       */
+      .button-link:hover {
+        background-color: #45a049;
+      }
+      .button {
+        background-color: #000000;
+        color: rgb(10, 8, 8);
+        padding: 10px 15px;
+        margin: 10px;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #905e3595;
+      }
+      
